@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=d, initial-scale=1.0">
+  <title>Stepic Games</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body id="start">
+  <div id="fade" class="hide"></div>
+  <div id="modal" class="hide">
+    <div id="tela-pedidos">
+      <h2>PEDIDOS</h2>
+      <img src="images/close-icon.png" alt="" id="fechar-modal">
+      <br>
+      <hr>
+      <div id="pedidos"></div>
+    </div>
+    <hr>
+    <div id="valor-total">
+      <p>Valor Total :</p>
+    </div>
+    <hr>
+    <div id="btn-pagar">
+      <button id="btn-comprar">Comprar</button>
+      <button id="btn-limpar">Limpar</button>
+    </div>
+
+
+  </div>
+
+  <header>
+    <nav>
+      <a href="#start">INÍCIO</a>
+      <a href="contato.html">CONTATO</a>
+      <a href="#" id="abrir-modal">CARRINHO</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="inicio">
+      <div class="logo">
+        <img src="images/logo-no-bg.png" alt="">
+        <p>STEPIC GAMES</p>
+      </div>
+      <div class="texto-inicio">
+        <h1>MAIOR LOJA DE GAMES NO BRASIL</h1>
+      </div>
+    </section>
+
+    <section class="jogos">
+      <h2>TODOS OS JOGOS</h2>
+      <div class="container">
+        <div class="box box-1">
+          <img src="images/games/1.jpg" alt="">
+          <p>God of War</p>
+          <p class="plataforma">PS4</p>
+          <p class="preco">R$ 99,90</p>
+          <div class="comprar">
+            <button class="add" id="gow">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-2">
+          <img src="images/games/2.webp" alt="">
+          <p>Resident Evil Village</p>
+          <p class="plataforma">PS4</p>
+          <p class="preco">R$ 114,90</p>
+          <div class="comprar">
+            <button class="add" id="rev">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-3">
+          <img src="images/games/3.jpg" alt="">
+          <p>Stardew Valley</p>
+          <p class="plataforma">PS4</p>
+          <p class="preco">R$ 34,90</p>
+          <div class="comprar">
+            <button class="add" id="sv">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-4">
+          <img src="images/games/4.jpg" alt="">
+          <p>Assassin's Creed Valhalla</p>
+          <p class="plataforma">PS4</p>
+          <p class="preco">R$ 79,90</p>
+          <div class="comprar">
+            <button class="add" id="acv">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-5">
+          <img src="images/games/5.png" alt="">
+          <p>Halo Infinite</p>
+          <p class="plataforma">Xbox One</p>
+          <p class="preco">R$ 129,90</p>
+          <div class="comprar">
+            <button class="add" id="hi">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-6">
+          <img src="images/games/6.png" alt="">
+          <p>Minecraft</p>
+          <p class="plataforma">Xbox One</p>
+          <p class="preco">R$ 69,90</p>
+          <div class="comprar">
+            <button class="add" id="mine">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-7">
+          <img src="images/games/7.png" alt="">
+          <p>Forza Horizon 4</p>
+          <p class="plataforma">Xbox One</p>
+          <p class="preco">R$ 84,90</p>
+          <div class="comprar">
+            <button class="add" id="fh">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-8">
+          <img src="images/games/8.png" alt="">
+          <p>Sea of Thieves</p>
+          <p class="plataforma">Xbox One</p>
+          <p class="preco">R$ 59,90</p>
+          <div class="comprar">
+            <button class="add" id="st">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-9">
+          <img src="images/games/9.png" alt="">
+          <p>Animal Crossing</p>
+          <p class="plataforma">Switch</p>
+          <p class="preco">R$ 189,90</p>
+          <div class="comprar">
+            <button class="add" id="ac">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-10">
+          <img src="images/games/10.png" alt="">
+          <p>Super Mario Odyssey</p>
+          <p class="plataforma">Switch</p>
+          <p class="preco">R$ 199,90</p>
+          <div class="comprar">
+            <button class="add" id="smo">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-11">
+          <img src="images/games/11.jpg" alt="">
+          <p>Mario Kart 8 Deluxe</p>
+          <p class="plataforma">Switch</p>
+          <p class="preco">R$ 159,90</p>
+          <div class="comprar">
+            <button class="add" id="mk">Comprar</button>
+          </div>
+        </div>
+
+        <div class="box box-12">
+          <img src="images/games/12.png" alt="">
+          <p>The Legend of Zelda</p>
+          <p class="plataforma">Switch</p>
+          <p class="preco">R$ 189,90</p>
+          <div class="comprar">
+            <button class="add" id="tloz">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Cauã Lopes | 2022</p>
+  </footer>
+
+</body>
+
+</html>
